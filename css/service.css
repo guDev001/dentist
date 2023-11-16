@@ -198,8 +198,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-
 }
+
 
 .page-service-card picture img {
     max-width: 60px;
@@ -226,4 +226,21 @@
 
 .page-service-card:hover a {
     color: #00B38F;
+}
+
+.page-service-card:hover picture{
+    background-color:  #04e8ba;
+}
+
+.page-service-card:hover h4,
+.page-service-card:hover a {
+    color: #04e8ba;
+}
+
+.page-service-card:hover p {
+    color: #333;
+}
+
+.page-service-card:hover {
+    background-color: rgba(227, 227, 227, 0.445);
 }
