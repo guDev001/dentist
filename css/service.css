@@ -149,3 +149,81 @@
     color: white;
     font-size: 25px;
 }
+
+.page-service > h4 {
+    color: #00B38F;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.page-service > h2 {
+    font-family: var(--header-font);
+    color: #333;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.page-service-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.page-service-card {
+    padding: 2rem 1rem;
+    border: 3px solid #00B38F;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: border ease .5s, transform ease-in-out .4s;
+    display: flex;
+    flex-direction: column;
+    row-gap: .6rem;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.page-service-card:hover {
+    transform: scale(1.02);
+    border: 3px solid #04e8ba;
+}
+
+.page-service-card picture {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    background-color: #00B38F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.page-service-card picture img {
+    max-width: 60px;
+}
+
+.page-service-card h4 {
+    color: #00B38F;
+    font-size: 1rem;
+    font-family: var(--header-font);
+    font-weight: 600;
+}
+
+.page-service-card p {
+    color: #333333bc;
+    font-size: .85rem;
+    font-weight: 400;
+}
+
+.page-service-card a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #333;
+}
+
+.page-service-card:hover a {
+    color: #00B38F;
+}
