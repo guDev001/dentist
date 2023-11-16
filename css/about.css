@@ -204,26 +204,27 @@
 
 .our-unit-imgs {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem 1rem;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 8px;
 }
 
 .our-unit-imgs picture {
     overflow: hidden;
     border-radius: 10px;
-    height: 200px;
+    height: 100%;
     width: 100%;
+}
+
+.our-unit-imgs picture:nth-child(1){
+    grid-row: 1 / 3;
 }
 
 .our-unit-imgs picture img {
-    height: 200px;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: center;
-}
-
-.our-unit-imgs picture:last-child {
-    grid-column: 1 / 3;
 }
 
 .our-unit-content h2 {
