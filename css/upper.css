@@ -1,0 +1,34 @@
+.container-upper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper-header {
+    background-color: #00B38F;
+}
+
+.upper-description {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.upper-social {
+    display: flex;
+    column-gap: 8px;
+}
+
+.upper-social span{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.upper-social span:hover {
+    transform: scale(1.15);
+}

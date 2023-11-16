@@ -1,0 +1,151 @@
+.service-container {
+    padding: 5rem 1rem 0 1rem;
+}
+
+.service-container h4 {
+    color: #00B38F;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+.service-container h2 {
+    font-family: var(--header-font);
+    color: #333;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.service-container > p {
+    font-size: .9rem;
+    color: #3333339d;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.service-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+}
+
+.service-content {
+    display: flex;
+    column-gap: .5rem;
+    align-items: center;
+}
+
+.service-description-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-description-img img {
+    max-width: 60px;
+    background-color: #00B38F;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.service-card:nth-child(1) .service-description h3 {
+    margin-bottom: .5rem;
+    font-weight: 700;
+    color: #333;
+    font-family: var(--header-font);
+    text-align: right;
+}
+
+.service-card:nth-child(3) .service-description h3{
+    margin-bottom: .5rem;
+    font-weight: 700;
+    color: #333;
+    font-family: var(--header-font);
+    text-align: left;
+}
+
+.service-card:nth-child(3) .service-description p {
+    font-weight: 400;
+    font-size: .9rem;
+    text-align: left;
+}
+
+.service-card:nth-child(1) .service-description p {
+    font-weight: 400;
+    font-size: .9rem;
+    text-align: right;
+}
+
+.service-card picture img {
+    max-width: 480px;
+    margin-bottom: -5.2px;
+}
+
+.left {
+    text-align: left;
+}
+
+/* Página Serviços */
+
+.banner-services {
+    background-image: url('./../img/banner-services.jpg');
+    background-size: cover;
+    background-position: 25% 25%;
+    background-repeat: no-repeat;
+    padding: 5rem 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: .65;
+    background-color: #333;
+    z-index: 2;
+}
+
+.banner-services h1{
+    z-index: 3;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.banner-services p {
+    text-align: center;
+    color: #ffffffc1;
+    z-index: 3;
+    max-width: 900px;
+    line-height: 2;
+    margin-bottom: 1rem;
+}
+
+.banner-services span {
+    z-index: 3;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 40px;
+    color: white;
+    font-size: 25px;
+}

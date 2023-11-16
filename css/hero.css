@@ -1,0 +1,47 @@
+.hero {
+    background-color: #00B38F;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.hero-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-card h2 {
+    font-size: 3rem;
+    font-family: var(--header-font);
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.hero-card h4 {
+    color: #fff;
+    font-family: var(--header-font);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.hero-card picture {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 3px solid #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-card picture img {
+
+    max-width: 70px;
+}

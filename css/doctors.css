@@ -1,0 +1,76 @@
+.doctors-container > h4{
+    color: #00B38F;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.doctors-container > h2 {
+    font-family: var(--header-font);
+    color: #333;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.doctors-container > p {
+    font-size: .9rem;
+    color: #3333339d;
+    line-height: 2;
+    margin-bottom: 1rem;
+    max-width: 600px;
+}
+
+.doctors-container-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+}
+
+.doctor-card {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.bx-doctor {
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: .4rem;
+    text-align: center;
+}
+
+.doctor-card picture{
+    overflow: hidden;
+}
+
+.doctor-card picture img {
+    max-width: 379px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.social-doctor {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: .6rem;
+}
+
+.social-doctor span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .4s;
+    font-size: 1.4rem;
+}
+
+.social-doctor span:hover {
+    background-color: #00B38F;
+    color: #fff;
+}
