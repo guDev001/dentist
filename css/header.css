@@ -145,3 +145,9 @@ header {
     font-size: 1rem;
     color: #333333;
 }
+
+@media screen and (max-width: 1080px){
+    .header-card-img {
+        display: none;
+    }
+}
