@@ -223,3 +223,35 @@ form button  {
     cursor: pointer;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 1080px) {
+    .contact-container {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+        text-align: center;
+    }
+    
+    .form-contact {
+        margin: 0 auto;
+        width: 70%;
+        padding: 2rem 1rem; 
+    }
+
+    .form-group {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    .form-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-content p {
+        max-width: 700px;
+    }
+}
