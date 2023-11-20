@@ -254,4 +254,16 @@ form button  {
     .form-content p {
         max-width: 700px;
     }
+
+    .location-container {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 1rem;
+    }
+}
+ 
+@media screen and (max-width: 760px) {
+    .location-card {
+        max-width: 450px;
+        margin: 0 auto;
+    }
 }
