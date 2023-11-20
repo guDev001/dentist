@@ -89,3 +89,38 @@
     color: white;
     font-size: 1.2rem;
 }
+
+@media screen and (max-width: 1080px) {
+    .choose-img img {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .choose-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .choose-content h4 {
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .choose-content h2 {
+        text-align: center;
+    }
+    
+    .choose-content > p {
+        text-align: center;
+    }
+
+    .choose-card {
+        display: block;
+        text-align: center;
+    }
+
+    .choose-img {
+        text-align: center;
+    }
+} 

@@ -244,3 +244,32 @@
 .page-service-card:hover {
     background-color: rgba(227, 227, 227, 0.445);
 }
+
+@media screen and (max-width: 1080px) {
+    .page-service-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page-service-grid {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .page-service-card {
+        align-items: center;
+        text-align: center;
+        width: 65%;
+        margin: 0 auto;
+        padding: 3rem 1rem;
+    }
+
+    .service-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .service-card:nth-of-type(2) {
+        display: none;
+    }
+}
