@@ -150,5 +150,18 @@ header {
     .header-card-img {
         display: none;
     }
-    
+}
+
+@media screen and (max-width: 500px){
+    .header-content h2 {
+        font-size: 1rem;
+    }
+    .header-content h1 {
+        font-size: 1.2rem;
+        max-width: 450px;
+    }
+    .header-content p  {
+        max-width: 450px;
+        font-size: .8rem;
+    }
 }
