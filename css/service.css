@@ -272,4 +272,11 @@
     .service-card:nth-of-type(2) {
         display: none;
     }
+
+}
+
+@media screen and (max-width: 500px) {
+    .service-description-img {
+        display: none;
+    }
 }

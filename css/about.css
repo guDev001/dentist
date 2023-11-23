@@ -286,6 +286,15 @@
     .about-content p:nth-of-type(2) {
         display: none;
     }     
+
+    .mission-about {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2.5rem;
+    }
+
+    .our-unit-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -321,6 +330,9 @@
 
     .about-content button {
         margin: 0 auto;
+    }
 
+    .mission-about {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
