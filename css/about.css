@@ -293,4 +293,34 @@
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
     }
+
+    .about-image picture img {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .opening-hour {
+        display: none;
+    }
+
+    .opening-hour h3 {
+        font-size: .8rem;
+    }
+
+    .opening-hour ul li {
+        font-size: .6rem;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .about-content h4 {
+        margin: 0 auto;
+    }
+
+    .about-content button {
+        margin: 0 auto;
+
+    }
 }
